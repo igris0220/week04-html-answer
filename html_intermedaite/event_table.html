@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(img/bg.jpg);
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #7fa9dc;
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        th[colspan="2"] {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Upcoming Events</h1>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Event Details</th>
+                <th>Date</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <th>Event Name</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Collge of Science - Science Month celebration</td>
+                <td>A month long celebration of the Collge of Science for the Science Festival</td>
+                <td>September 1, 2024 - September 30, 2024</td>
+                <td>College of Science premises</td>
+            </tr>
+            <tr>
+                <td>STRASUC Sports Festival</td>
+                <td>A week long consisting of sports competetions from multiple universities</td>
+                <td>October 21, 2024 to 27, 2024</td>
+                <td>Sports City Complex</td>
+            </tr>
+            <tr>
+                <td>Binturungan Sports Festival</td>
+                <td>Another week long full of sports competetion between all of the Colleges in the Palawan State university</td>
+                <td>March 3, 2025 - March 7, 2025</td>
+                <td>Convention Hall, SF</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
